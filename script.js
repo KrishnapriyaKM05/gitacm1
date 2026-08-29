@@ -127,18 +127,17 @@ const fiveColorSequence = [PINK, YELLOW, ORANGE, RED, VIOLET];
 
 
 
-createTriangleRing(10, 45, 16, GREEN);      // 1. green triangle star
-createRingBand(45, 58,PINK);              // 2. white ring
-createRingBand(58, 71, YELLOW);             // 3. yellow ring
-createRingBand(71, 84, ORANGE);             // 4. orange ring
-createRingBand(84, 97, RED);                // 5. red ring
-createRingBand(97, 110, GREEN);             // 6. green fill
-createTriangleRing(110, 140, 16,PINK);    // 7. white triangle ring
-createDiamondRing(140, 160, 16, YELLOW);    // 8. yellow diamond ring
-createDiamondRing(160, 180, 16, ORANGE);    // 9. orange diamond ring
-createTriangleRing(180, 205, 16, RED);      // 10. red triangle ring
-createRingBand(205, 220, VIOLET);           // 11. violet fill
+createTriangleRing(10, 45, 16, GREEN);     
+createRingBand(45, 58,PINK);              
+createRingBand(58, 71, YELLOW);             
+createRingBand(71, 84, ORANGE);             
+createRingBand(84, 97, RED);                
+createRingBand(97, 110, GREEN);             
+createTriangleRing(110, 140, 16,PINK);   
+createDiamondRing(140, 160, 16, YELLOW);   
+createDiamondRing(160, 180, 16, ORANGE);    
+createTriangleRing(180, 205, 16, RED);      
+createRingBand(205, 220, VIOLET);           
 
-// wedge rings
-createWedgeRing(220, 255, 8, 5, fiveColorSequence, false); // 12. inner wedge ring
-createWedgeRing(255, 290, 8, 5, fiveColorSequence, true);  // 13. outer wedge ring (flipped)
+createWedgeRing(220, 255, 8, 5, fiveColorSequence, false); 
+createWedgeRing(255, 290, 8, 5, fiveColorSequence, true);  
