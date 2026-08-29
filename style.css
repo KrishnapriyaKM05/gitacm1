@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e8eed1;
+}
+.stage {
+    width: 600px;
+    height: 600px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+#pookkalam {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
